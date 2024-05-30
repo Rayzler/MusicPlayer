@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, TouchableHighlight, View, Image } from "react-native";
+import { StyleSheet, Text, TouchableHighlight, View } from "react-native";
 import { unknownTrackImageUri } from "@/constants/images";
 import { colors, fontSize } from "@/constants/tokens";
 import { defaultStyle } from "@/styles";

@@ -4,7 +4,10 @@ import { colors } from "@/constants/tokens";
 export const StackScrennWithSearchBar: NativeStackNavigationOptions = {
     headerLargeTitle: true,
     headerLargeStyle: {
-        backgroundColor: colors.background
+        backgroundColor: "transparent"
+    },
+    headerStyle: {
+        backgroundColor: "transparent"
     },
     headerLargeTitleStyle: {
         color: colors.text
